@@ -1,4 +1,4 @@
-document.getElementById("generate").addEventListener("click", function () {
+document.getElementById("generate").addEventListener("click", () => {
     let text = document.getElementById("text").value.trim();
 
     if (text === "") {
@@ -7,6 +7,4 @@ document.getElementById("generate").addEventListener("click", function () {
     }
 
     alert("🎉 Indian TTS AI is coming soon!\n\nYou entered:\n" + text);
-});document.querySelector("button").addEventListener("click", () => {
-  alert("Indian TTS is under development.");
 });
